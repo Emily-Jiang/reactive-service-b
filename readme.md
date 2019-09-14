@@ -24,13 +24,6 @@ The **ProtectedController** contains the protected endpoint since it contains th
 The _TestSecureController_ code creates a JWT based on the private key found within the resource directory.
 However, any method to send a REST request with an appropriate header will work of course. Please feel free to change this code to your needs.
 
-# Interim requirement till 15th September
-In pom.xml, search for <assemblyArchive> and then do the interim actions as following: This will not be necessary next week
-Check out a daily build from open liberty https://openliberty.io/downloads/#development_builds and add to your local file system, update the file location according in assemblyArchive
-
-
-
-
 
 ### Rest Client
 

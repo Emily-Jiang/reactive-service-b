@@ -1,4 +1,4 @@
-package dev.appsody.starter;
+package com.example.demo.reactive;
 
 import javax.enterprise.context.ApplicationScoped;
 
@@ -10,6 +10,6 @@ public class KafkaConsumer {
 
     @Incoming("prices")
     public void consume(int price) {
-        System.out.println("2nd Consumer received: " + price + " @" + System.currentTimeMillis());
+        System.out.println("Consumer received: " + price + " @" + System.currentTimeMillis());
     }
 }

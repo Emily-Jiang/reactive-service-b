@@ -11,6 +11,6 @@ public class ServiceController {
     @Path("/{parameter}")
     public String doSomething(@PathParam("parameter") String parameter) throws Exception{
         Thread.sleep(5000);
-        return String.format("Processed parameter value '%s'", parameter);
+        return String.format("Service B: '%s'", parameter);
     }
 }
